@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Campus Crush",
+    "slug": "campus-crush",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/app_logo_CampusCrush.png",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.campuscrush.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/app_logo_CampusCrush.png",
+        "backgroundColor": "#0f0f23"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.campuscrush.app",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Campus Crush needs access to your photos to add profile pictures."
+        }
+      ],
+
+      "@config-plugins/react-native-webrtc",
+      "expo-splash-screen",
+      "expo-audio",
+      "expo-video",
+      "expo-status-bar",
+      "expo-font",
+      "expo-asset"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "835da38a-59f6-4528-901b-c2d45cb3f165"
+      }
+    }
+  }
+}

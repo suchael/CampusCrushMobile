@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Expo tracking & caches
+.expo/
+.eas/
+
+# Native build directories (EAS builds these from scratch)
+android/
+ios/
+
+# Build outputs and temp files
+bin/
+build/
+dist/
+*.tgz
