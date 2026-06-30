@@ -4,7 +4,8 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 const PUBLIC_URL = "https://campuscrush-1hc6.onrender.com";
 const LOCAL_URL = "http://10.134.174.68:5000";
 
-export const API_BASE_URL = __DEV__ ? LOCAL_URL : PUBLIC_URL;
+// export const API_BASE_URL = __DEV__ ? LOCAL_URL : PUBLIC_URL;
+export const API_BASE_URL = PUBLIC_URL;
 
 // async storage key
 export const USER_TOKEN_KEY = 'userToken';
